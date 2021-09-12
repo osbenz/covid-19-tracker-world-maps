@@ -1,5 +1,5 @@
 {% extends "covid_stats/base.html" %}
-
+{% load static %}
 {% block content %}
-    <svg  xmlns="http://www.w3.org/2000/svg" type="image/svg+xml" data="covid_stats/world_population.svg" ></object>
+    <object type="image/svg+xml" data="{% static 'covid_stats/images/world_population.svg' %}"></object>
 {% endblock content %}

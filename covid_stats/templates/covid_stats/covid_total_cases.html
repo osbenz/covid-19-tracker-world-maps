@@ -1,8 +1,5 @@
 {% extends "covid_stats/base.html" %}
-
+{% load static %}
 {% block content %}
-    <img
-    src="covid_stats/covid_total_cases.svg"
-    height="900"
-    width="900" />
+<object type="image/svg+xml" data="{% static 'covid_stats/images/covid_stats.svg' %}"></object>
 {% endblock content %}
