@@ -1,0 +1,5 @@
+{% extends "covid_stats/base.html" %}
+{% load static %}
+{% block content %}
+    <object type="image/svg+xml" data="{% static 'covid_stats/images/today_cases.svg' %}"></object>
+{% endblock content %}
