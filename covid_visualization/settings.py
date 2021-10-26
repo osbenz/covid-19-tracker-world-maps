@@ -18,6 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = (os.environ.get('DEBUG_VALUE') == 'True') 
 
+# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['covid19-tracker-maps.herokuapp.com']
 
 
@@ -115,7 +116,7 @@ USE_TZ = True
 
 import os 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'covid_stats/static/covid_stats/images')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 # Default primary key field type
