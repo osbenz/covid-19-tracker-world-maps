@@ -115,7 +115,7 @@ USE_TZ = True
 
 import os 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'covid_stats')
+STATIC_ROOT = os.path.join(BASE_DIR, 'covid_stats/static')
 STATIC_URL = '/static/'
 
 # Default primary key field type
